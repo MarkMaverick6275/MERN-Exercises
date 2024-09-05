@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 0px auto;
+    padding: 1rem 0rem;
+}
+.logo{
+    background: url(assets/UE-Logo-1.webp);
+    height: 5.1rem;
+    width: 16.19rem;
+    transform: scale(0.8);
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.navigations a{
+    color: black;
+    text-decoration: none;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 67rem;
+    margin: 4rem auto;
+    gap: 1.5rem;
+}
+.firstline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.3rem;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 400;
+}
+.banner p{
+    font-size: 1.5rem;
+    font-weight: 350;
+    text-align: center;
+    transform: scale(0.9);
+}
+.thank a{
+    text-decoration: none;
+    padding: 0.87rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+    background-color: #09a6bd;
+    color: white;
+    border-radius: 0.3rem;
+}
+.product{
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 30vh;
+    width: 22vw;
+    border-radius: 0.4rem;
+    word-break: break-word;
+    gap: 1rem;
+    padding: 1rem;
+}
+.download{
+    text-decoration: none;
+    color: white;
+    font-weight: 550;
+    background-color: #5cb85c;
+    border-radius: 0.2rem;
+    padding: 0.3rem 0.6rem;
+}
+.state{
+    font-weight: 400;
+    font-size: 0.87rem;
+}
+.serial{
+    font-size: 0.8rem;
+}
+.key{
+    font-size: 0.67rem;
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-areas: "col col col";
+    justify-items: center;
+    width: 68vw;
+    margin: 0rem auto;
+    gap: 2rem;
+}
+.blogo{
+    background: url(assets/UE_logo_icon_white.png);
+    height: 5rem;
+    width: 5rem;
+    background-position: center;
+    background-size: cover;
+}
+.heading h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.txt{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    width: 68vw;
+    margin: 6rem auto 2rem auto;
+    gap: 2rem;
+}

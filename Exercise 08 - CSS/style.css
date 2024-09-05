@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #006aff;
+    position: relative;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.ball{
+    height: 7em;
+    width: 7rem;
+    background-color: #01ffff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: animateX 6s linear infinite, animateY 1s ease-in infinite alternate;
+    /* animation: animateY 5s linear infinite 0s; */
+}
+@keyframes animateY {
+    from{
+        bottom: 70%;
+    }
+    to{
+        bottom: 0%;
+    }
+}
+@keyframes animateX {
+    from{
+        left: 0%;
+    }
+    to{
+        left: 100%;
+    }
+}

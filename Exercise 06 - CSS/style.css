@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 0px auto;
+}
+.logo{
+    background: url(assets/UE-Logo-1.webp);
+    height: 5.1rem;
+    width: 16.19rem;
+}
+.navigations a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin: 0rem 1rem;
+}
